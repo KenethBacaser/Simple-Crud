@@ -1,0 +1,46 @@
+
+* {
+	margin : 0; 
+	padding : 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100vh;
+	background : linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+	background-size: 400% 400%;
+	animation: change  20s ease-in-out infinite;
+}
+@keyframes change{
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+a {
+	color: #000022;
+}
+a:hover {
+	color: rgb(rgb(204, 193, 193), green, rgb(36, 30, 30));
+}
+
+.form-add {
+	left: 35%;
+	top:170px;
+	margin-right: 20px;
+	position: absolute	;
+}
+.head {
+	font-size: 2.5rem;
+	font-family: 'Caveat', cursive;
+}
+.header {
+	font-size: 2.5rem;
+	font-family: 'Caveat', cursive;
+}
